@@ -1,5 +1,7 @@
 FROM node:alpine
 
+WORKDIR /home/auto-tags/
+
 COPY package*.json ./
 
 RUN npm install
