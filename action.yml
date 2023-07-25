@@ -12,6 +12,9 @@ inputs:
     description: If you want to test the results and dont wanna post the results
     required: false
     default: false
+  token:
+    description: The GitHub PAT used to authenticate when creating the tag
+    required: true
 outputs:
   tagname:
     description: Fully assembled tag-name
