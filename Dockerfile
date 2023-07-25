@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /home/auto-tags/
+WORKDIR /github/workspace
 
 COPY package*.json ./
 
@@ -10,4 +10,4 @@ COPY . .
 
 RUN npm run build
 
-CMD ["node", "lib/main.js"]
+CMD ["npm", "start"]
