@@ -15,11 +15,11 @@
   "devDependencies": {
     "@types/node": "^20.4.5",
     "husky": "^8.0.3",
-    "rimraf": "^5.0.1",
-    "typescript": "^5.1.6"
+    "rimraf": "^5.0.1"
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
+    "typescript": "^5.1.6",
     "@actions/github": "^5.1.1"
   }
 }
